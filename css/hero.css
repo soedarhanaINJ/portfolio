@@ -1,0 +1,54 @@
+.navbar-brand {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.offcanvas-body,
+.about p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/*  ----------------
+    HERO SECTION
+--------------------  */
+
+.hero {
+    background-color: #E0FBE2;
+    min-height: 80vh;
+    padding-top: 70px;
+}
+
+.hero img {
+    width: 150px;
+    height: 120px;
+}
+
+/*  end HERO SECTION
+--------------------  */
+
+
+/*  ----------------
+    ABOUT SECTION
+--------------------  */
+
+.about {
+    min-height: 80vh;
+}
+
+.about .row {
+    padding-top: 77px;
+}
+
+.about h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*  end ABOUT SECTION
+--------------------  */
