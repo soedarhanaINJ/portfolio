@@ -1,0 +1,18 @@
+.contact {
+    min-height: 100vh;
+}
+.contact .contact-container,
+.hero .hero-container {
+    padding-top: 15vh;
+}
+
+.contact h2 {
+    margin-top: 20px;
+}
+
+.row .btn {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: uppercase;
+}

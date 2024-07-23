@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,7 +62,7 @@
 
     <!-- Hero Section -->
     <section class="hero" id="hero">
-        <div class="container-fluid">
+        <div class="container-fluid hero-container">
             <img src="media/PP.jpeg" alt="Soedarhana Pict" class="rounded-circle">
             <h1 class="display-6 mt-4">Soedarhana</h1>
             <p class="lead">Junior Fullstack Development</p>
@@ -203,15 +204,40 @@
     <!-- END Projects -->
 
     <!-- Contact -->
-        <div id="contact" class="contact">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col">
-                        <h2>Contact Me</h2>
+    <div id="contact" class="contact">
+        <div class="container contact-container">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="row my-2">
+                    <div class="col text-start">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Name">
+                        </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col text-start">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                        </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col text-start">
+                    <label for="exampleFormControlTextarea1" class="form-label">Your message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col text-end">
+                        <button type="submit" class="btn btn-primary">Send Message!</button>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     <!-- Contact -->
 
     <!-- Bootstrap Popper -->

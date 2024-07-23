@@ -12,13 +12,6 @@
     min-height: 100vh;
 }
 
-.projects h2 {
-    text-align: center;
-    margin-top: 37px;
-}
-
-
-
 /*  ----------------
     Card@ PROJECTS SECTION
 --------------------  */
@@ -37,7 +30,7 @@
     border: 5px solid;
     border-image-slice: 0.5;
     background: #40A578 !important;
-    -webkit-background-clip: text !important;
+    /* -webkit-background-clip: text !important; */
     -webkit-text-fill-color: transparent !important;
     border-image-source: var(--gradient) !important;
     text-decoration: none;
@@ -47,7 +40,7 @@
 .btn:hover,
 .btn:focus {
     background: var(--gradient) !important;
-    -webkit-background-clip: none !important;
+    /* -webkit-background-clip: none !important; */
     -webkit-text-fill-color: #000000 !important;
     border: 2px solid #E0FBE2 !important;
     box-shadow: #222 1px 0 10px;

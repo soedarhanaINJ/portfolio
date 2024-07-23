@@ -21,7 +21,7 @@
 .offcanvas-body .nav-link:hover,
 .offcanvas-body .nav-link:focus {
     background: var(--gradient) !important;
-    -webkit-background-clip: none !important;
+    /* -webkit-background-clip: none !important; */
     -webkit-text-fill-color: #000000 !important;
     box-shadow: #222 1px 0 10px;
     text-decoration: none;
@@ -34,4 +34,16 @@
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+
+.about h2,
+.projects h2,
+.contact h2 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 37px;
 }
