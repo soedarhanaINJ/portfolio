@@ -22,13 +22,14 @@
     margin-bottom: 2rem;
 }
 
-.card h5, h6 {
+.card h5,
+h6 {
     text-align: start;
 }
 
 .btn {
-    border: 5px solid;
-    border-image-slice: 0.5;
+    border: none;
+    outline: none;
     background: #40A578 !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -45,6 +46,7 @@
     border: 2px solid #E0FBE2 !important;
     box-shadow: #222 1px 0 10px;
     text-decoration: none;
+    outline: none;
 }
 
 /*
