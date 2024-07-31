@@ -1,15 +1,45 @@
-body[data-bs-theme="light"] {
-    /* light theme styles */
-    background-color: white;
-    color: black;
+:root {
+    --base-color: #ACE1AF;
+    --primary-color: #B0EBB4;
+    --text-color: #111528;
+    --base-variant: #BFF6C3;
+    --ancent-color: #E0FBE2;
 }
 
-body[data-bs-theme="dark"] {
-    /* dark theme styles */
-    background-color: black;
-    color: white;
+.darkmode {
+    --base-color: #111528;
+    --text-color: white;
 }
 
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#theme-switch {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#theme-switch svg {
+    fill: #000000;
+}
+
+#theme-switch svg:last-child {
+    display: none;
+}
+
+.darkmode #theme-switch svg:first-child {
+    display: none;
+}
+.darkmode #theme-switch svg:last-child {
+    display: block;
+}
 
 /* -------------
     NAVBAR
